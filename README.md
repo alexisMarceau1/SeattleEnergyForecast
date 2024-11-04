@@ -50,7 +50,7 @@ This project is divided into two main notebooks:
      - **Linear Regression**: A basic linear model.
      - **Lasso and Elastic Net**: Adds regularization to improve generalization.
      - **Random Forest and XGBoost**: Captures non-linear relationships.
-     - 
+       
 5. **Model Evaluation**
 
    - **Selection of Best Models**: Identifying top-performing models based on evaluation metrics.
