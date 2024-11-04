@@ -1,5 +1,7 @@
 # SeattleEnergyForecast
 
+![Seattle Skyline](images/seattle-f.jpg) <!-- Image d'introduction -->
+
 ## **Project Overview**
 
 This project aims to predict the **energy consumption** (`SiteEnergyUse(kBtu)`) and **CO₂ emissions** (`TotalGHGEmissions`) of non-residential buildings in Seattle using data from 2015 and 2016. 
