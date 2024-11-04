@@ -1,6 +1,7 @@
 # SeattleEnergyForecast
 
 **Project Overview**
+
 This project aims to predict the energy consumption (`SiteEnergyUse(kBtu)`) and CO₂ emissions (`TotalGHGEmissions`) of non-residential buildings in Seattle using data from 2015 and 2016. 
 By forecasting these metrics, companies can identify opportunities to reduce **energy costs** and **enhance the sustainability** of their operations.
 
