@@ -14,7 +14,7 @@ Specifically, we investigate if omitting certain costly metrics like `ENERGYSTAR
 - **Secondary Goal**: Assess the necessity of the ENERGYSTARScore in predictions, exploring if we can exclude it to reduce data collection costs without compromising model accuracy.
 
 **Data Sources**
-- **Main Dataset**: Seattle Energy Benchmarking Data (2015-2016) (#https://www.seattle.gov/environment/climate-change/buildings-and-energy/energy-benchmarking/data-and-reports)
+- **Main Dataset**: [Seattle Energy Benchmarking Data (2015-2016)](https://www.seattle.gov/environment/climate-change/buildings-and-energy/energy-benchmarking/data-and-reports)
 - Dataset Description: Building Energy Benchmarking Details
 
 **Project Structure**
