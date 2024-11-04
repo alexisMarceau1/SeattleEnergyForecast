@@ -1,6 +1,6 @@
 # SeattleEnergyForecast
 
-![Seattle Skyline](images/seattle-f.jpg) <!-- Image d'introduction -->
+![Seattle Skyline](images/seattle.jpg) <!-- Image d'introduction -->
 
 ## **Project Overview**
 
