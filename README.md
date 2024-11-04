@@ -33,7 +33,7 @@ This project is divided into two main notebooks:
 1. **Data Import**
    - Load necessary libraries, set configurations, load the data and inspect initial characteristics.
 
-3. **Data Preparation and Exploration**
+2. **Data Preparation and Exploration**
    - **Data Cleaning**: Handle missing values, inconsistencies, and outliers in the dataset.
    - **Exploratory Data Analysis (EDA)**:
       - **Categorical Variables**: Analyze categorical data and correct typos where necessary.
@@ -41,22 +41,22 @@ This project is divided into two main notebooks:
       - **Correlations**: Examine relationships between features and with target variables.
       - **Target Variables Analysis**: Explore characteristics of `TotalGHGEmissions` and `SiteEnergyUse(kBtu)`.
 
-4. **Feature Engineering**
+3. **Feature Engineering**
    - Create new variables, encode categories, and normalize data to enhance model performance.
 
-5. **Modeling and Predictions**
-   - **Model Evaluation**: Test various models, including:
-      - **Linear Regression**: A basic linear model.
-      - **Lasso and Elastic Net**: Adds regularization to improve generalization.
-      - **Random Forest and XGBoost**: Captures non-linear relationships.
+4. Modeling
 
-   - **Selection of Best Models**: Identify models with optimal performance based on evaluation metrics.
+- **Model Selection** : Choix des modèles testés pour les prédictions.
+  - **Linear Regression** : Un modèle de base pour des relations linéaires.
+  - **Lasso and Elastic Net** : Intègre une régularisation pour améliorer la généralisation.
+  - **Random Forest and XGBoost** : Capture des relations non linéaires.
 
-   - **Making Predictions**:
-      - **CO₂ Emissions Prediction**: Analyze predictions for `TotalGHGEmissions`.
-      - **Energy Consumption Prediction**: Evaluate predictions for `SiteEnergyUse(kBtu)`.
+5. Model Evaluation
 
-
+- **Selection of Best Models** : Identification des modèles les plus performants en fonction des métriques d’évaluation.
+- **Making Predictions** : Génération et analyse des prédictions des modèles sélectionnés.
+  - **CO₂ Emissions Prediction** : Prédictions pour `TotalGHGEmissions`.
+  - **Energy Consumption Prediction** : Prédictions pour `SiteEnergyUse(kBtu)`.
 
 6. **ENERGYSTARScore Evaluation**
    - **Comparison with/without ENERGYSTARScore**: Analyze the impact of excluding the `ENERGYSTARScore` variable on model accuracy to determine if it can be safely omitted, reducing data collection costs.
