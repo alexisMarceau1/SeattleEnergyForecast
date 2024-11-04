@@ -44,14 +44,14 @@ This project is divided into two main notebooks:
 3. **Feature Engineering**
    - Create new variables, encode categories, and normalize data to enhance model performance.
 
-4. Modeling
+4. **Modeling**
 
 - **Model Selection** : Choix des modèles testés pour les prédictions.
   - **Linear Regression** : Un modèle de base pour des relations linéaires.
   - **Lasso and Elastic Net** : Intègre une régularisation pour améliorer la généralisation.
   - **Random Forest and XGBoost** : Capture des relations non linéaires.
 
-5. Model Evaluation
+5. **Model Evaluation**
 
 - **Selection of Best Models** : Identification des modèles les plus performants en fonction des métriques d’évaluation.
 - **Making Predictions** : Génération et analyse des prédictions des modèles sélectionnés.
