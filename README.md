@@ -26,25 +26,31 @@ This project is divided into two main notebooks:
 1. **Data Preparation and Exploration**: Cleaning, feature engineering, and exploratory data analysis (EDA) of the dataset.
 2. **Modeling and Evaluation**: Implementation and evaluation of various prediction models to find the best approach for our targets. We also compare model performance with and without ENERGYSTARScore.
 
-## **Methodology**
+## 🔬 Methodology
 
-1. 🧹🔧**Data Cleaning and Feature Engineering**: Addressed missing values, encoded categorical variables, and engineered additional features.
-2. 🤖**Model Selection**: Evaluated several models, including:
-    - Linear Regression
-    - Lasso and Elastic Net (to explore regularization impacts)
-    - Random Forest and XGBoost (for potential non-linear relationships)
-3. 📈**Model Evaluation**: Focused on metrics such as:
-    - **Mean Absolute Error (MAE)**: for prediction accuracy.
-    - **R² Score**: to evaluate the variance explained by the model.
-    
-4. **Feature Importance Analysis**: Extracted feature importance from the Random Forest model (best performing model) to identify the most influential variables in predictions.
+### 1. Data Preparation
+- 🧹 **Data Cleaning**: Managed missing values and prepared data for modeling.
+- 🔧 **Feature Engineering**: Created new features and encoded categorical variables.
+
+### 2. Model Selection
+- Tested several models, including:
+    - **Linear Regression**
+    - **Lasso and Elastic Net** for regularization analysis
+    - **Random Forest and XGBoost** for non-linear relationships
+
+### 3. Evaluation Metrics
+- **Mean Absolute Error (MAE)**: Primary metric for prediction accuracy.
+- **R² Score**: Measures variance explained by the model.
+
+### 4. Feature Importance Analysis
+- Identified key features in the Random Forest model to highlight influential variables.
 
 ## ✅**Results**
 - **Best Model**: Random Forest provided a good balance between prediction accuracy and computational efficiency.
 - **ENERGYSTARScore Assessment**: Results suggest that excluding `ENERGYSTARScore` had a minimal impact on prediction accuracy, implying it could be safely omitted, thus reducing costs
   associated with data collection.
 
-## **Potential Improvements**
+##🚀 **Potential Improvements**
 
 - **Advanced Feature Engineering**: Further transformations and interactions among variables could potentially improve model accuracy.
 - **Optimized Hyperparameter Tuning**: Using techniques like Bayesian Optimization could streamline tuning for complex models such as XGBoost.
