@@ -15,7 +15,8 @@ Specifically, we investigate if omitting certain costly metrics like `ENERGYSTAR
 
 **Data Sources**
 - **Main Dataset**: [Seattle Energy Benchmarking Data (2015-2016)](https://www.seattle.gov/environment/climate-change/buildings-and-energy/energy-benchmarking/data-and-reports)
-- Dataset Description: Building Energy Benchmarking Details
+- **Dataset Description**: [Seattle Energy Benchmarking Data Description](https://data.seattle.gov/Built-Environment/2016-Building-Energy-Benchmarking/2bpz-gwpy/about_data)
+
 
 **Project Structure**
 This project is divided into two main notebooks:
