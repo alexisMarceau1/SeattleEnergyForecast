@@ -1,4 +1,4 @@
-# Seattle Building Energy and CO₂ Forecast
+# Seattle building energy and CO₂ forecast
 
 ![Seattle Skyline](images/seattle.jpg) <!-- Image d'introduction -->
 
