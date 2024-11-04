@@ -50,7 +50,7 @@ This project is divided into two main notebooks:
 - **ENERGYSTARScore Assessment**: Results suggest that excluding `ENERGYSTARScore` had a minimal impact on prediction accuracy, implying it could be safely omitted, thus reducing costs
   associated with data collection.
 
-##🚀 **Potential Improvements**
+## 🚀**Potential Improvements**
 
 - **Advanced Feature Engineering**: Further transformations and interactions among variables could potentially improve model accuracy.
 - **Optimized Hyperparameter Tuning**: Using techniques like Bayesian Optimization could streamline tuning for complex models such as XGBoost.
