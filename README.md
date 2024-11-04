@@ -30,43 +30,41 @@ This project is divided into two main notebooks:
 
 ![Project Workflow](images/flow.png) <!-- Diagramme de flux -->
 
-### 1. Data Import
-- **Objective**: Load the dataset from its source for analysis.
-- **Tasks**: 
-  - Import the 2015 and 2016 Seattle Energy Benchmarking dataset.
-  - Verify data format compatibility with the tools used for processing.
-  
-### 2. Data Preparation
-- **Objective**: Prepare the raw data for analysis.
-- **Tasks**:
-  - **Data Cleaning**: Handle missing values and correct inconsistencies to ensure data quality.
-  - **Normalization and Encoding**: Normalize numerical variables and encode categorical variables to facilitate modeling.
-  - **Target Variable Analysis**: Perform initial analysis on the target variables (`SiteEnergyUse(kBtu)` and `TotalGHGEmissions`) to understand their distribution and behavior.
-  
-### 3. Feature Engineering
-- **Objective**: Enhance the dataset with meaningful features.
-- **Tasks**:
-  - **Feature Creation**: Generate new variables from existing ones to capture relevant information.
-  - **Multivariate Analysis**: Explore relationships between multiple variables to detect potential interactions.
-  - **Categorical Analysis**: Assess the impact of categorical variables on target variables.
-  
-### 4. Modeling
-- **Objective**: Build predictive models to estimate energy use and emissions.
-- **Tasks**:
-  - **Model Selection**: Choose appropriate algorithms, such as Linear Regression, Lasso, Elastic Net, Random Forest, and XGBoost, to test for both linear and non-linear relationships.
-  - **Training**: Train each model using the prepared dataset, applying cross-validation where necessary.
-  
-### 5. Model Evaluation
-- **Objective**: Evaluate model performance to identify the best approach.
-- **Tasks**:
-  - **Error Metrics**: Calculate **Mean Absolute Error (MAE)** and **R² Score** on test data to gauge prediction accuracy.
-  - **Comparative Analysis**: Compare performance across different models to determine the most accurate and computationally efficient solution.
-  
-### 6. Comparison with/without ENERGYSTARScore
-- **Objective**: Determine the impact of omitting the `ENERGYSTARScore` feature on model performance.
-- **Tasks**:
-  - **Model Evaluation without ENERGYSTARScore**: Re-train and evaluate the best-performing models after removing `ENERGYSTARScore`.
-  - **Cost-Benefit Analysis**: Assess if excluding `ENERGYSTARScore` significantly affects prediction accuracy, helping to reduce data collection costs if the impact is minimal.
+1. **Presentation and Objectives**
+   - Overview of the project's goals, objectives, and expected outcomes.
+
+2. **Libraries and Display Options**
+   - Load necessary libraries, set configurations, and define display settings.
+
+3. **Data Preparation and Exploration**
+   - **Data Import**: Load the data and inspect initial characteristics.
+   - **Data Cleaning**: Handle missing values, inconsistencies, and outliers in the dataset.
+   - **Exploratory Data Analysis (EDA)**:
+      - **Categorical Variables**: Analyze categorical data and encode where necessary.
+      - **Numerical Variables**: Understand distributions of continuous variables.
+      - **Correlations**: Examine relationships between features and with target variables.
+      - **Target Variables Analysis**: Explore characteristics of `TotalGHGEmissions` and `SiteEnergyUse(kBtu)`.
+
+4. **Feature Engineering**
+   - Create new variables, encode categories, and normalize data to enhance model performance.
+
+5. **Model Selection and Training**
+   - **Model Evaluation**: Test various models, including:
+      - **Linear Regression**
+      - **Lasso and Elastic Net** for regularization effects
+      - **Random Forest and XGBoost** for capturing non-linear patterns.
+   - **Selection of Best Models**: Choose the top-performing models based on evaluation metrics.
+
+6. **Prediction and Results Analysis**
+   - **Making Predictions**: Generate and analyze predictions from selected models.
+   - **CO₂ Emissions Prediction**: Focus on `TotalGHGEmissions` prediction performance on the test set.
+   - **Energy Consumption Prediction**: Evaluate predictions for `SiteEnergyUse(kBtu)`.
+
+7. **ENERGYSTARScore Evaluation**
+   - **Comparison with/without ENERGYSTARScore**: Analyze the impact of excluding the `ENERGYSTARScore` variable on model accuracy to determine if it can be safely omitted, reducing data collection costs.
+
+8. **Conclusion**
+   - Summarize findings, discuss the best-performing models, and provide insights into the role of `ENERGYSTARScore`. Suggest potential improvements for further enhancing the model.
 
 ## ✅**Results**
 - **Best Model**: Random Forest provided a good balance between prediction accuracy and computational efficiency.
