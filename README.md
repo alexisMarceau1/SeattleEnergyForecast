@@ -28,6 +28,8 @@ This project is divided into two main notebooks:
 
 ## 🔬 Methodology
 
+![Project Workflow](images/flow.png) <!-- Diagramme de flux -->
+
 ### 1. Data Preparation
 - 🧹 **Data Cleaning**: Managed missing values and prepared data for modeling.
 - 🔧 **Feature Engineering**: Created new features and encoded categorical variables.
