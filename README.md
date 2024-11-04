@@ -37,7 +37,7 @@ This project is divided into two main notebooks:
     - **Mean Absolute Error (MAE)**: for prediction accuracy.
     - **R² Score**: to evaluate the variance explained by the model.
     
-4. **Feature Importance Analysis**: Analyzed feature importance using Random Forest to understand which variables significantly impact predictions.
+4. **Feature Importance Analysis**: Extracted feature importance from the Random Forest model (best performing model) to identify the most influential variables in predictions.
 
 ## **Results**
 - **Best Model**: Random Forest provided a good balance between prediction accuracy and computational efficiency.
