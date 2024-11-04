@@ -28,12 +28,12 @@ This project is divided into two main notebooks:
 
 1. **Data Cleaning and Feature Engineering**: Addressed missing values, encoded categorical variables, and engineered additional features.
 2. **Model Selection**: Evaluated several models, including:
-  - Linear Regression
-  - Lasso and Elastic Net (to explore regularization impacts)
-  - Random Forest and XGBoost (for potential non-linear relationships)
+    - Linear Regression
+    - Lasso and Elastic Net (to explore regularization impacts)
+    - Random Forest and XGBoost (for potential non-linear relationships)
 3. **Model Evaluation**: Focused on metrics such as:
-  - **Mean Absolute Error (MAE)**: for prediction accuracy.
-  - **R² Score**: to evaluate the variance explained by the model.
+    - **Mean Absolute Error (MAE)**: for prediction accuracy.
+    - **R² Score**: to evaluate the variance explained by the model.
     
 4. **Feature Importance Analysis**: Analyzed feature importance using Random Forest to understand which variables significantly impact predictions.
 
