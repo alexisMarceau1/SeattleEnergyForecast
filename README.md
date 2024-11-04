@@ -50,14 +50,13 @@ This project is divided into two main notebooks:
      - **Linear Regression**: A basic linear model.
      - **Lasso and Elastic Net**: Adds regularization to improve generalization.
      - **Random Forest and XGBoost**: Captures non-linear relationships.
-
+     - 
 5. **Model Evaluation**
 
    - **Selection of Best Models**: Identifying top-performing models based on evaluation metrics.
    - **Making Predictions**: Generating and analyzing predictions from selected models.
      - **CO₂ Emissions Prediction**: Analyzing predictions for `TotalGHGEmissions`.
      - **Energy Consumption Prediction**: Evaluating predictions for `SiteEnergyUse(kBtu)`.
-
 
 6. **ENERGYSTARScore Evaluation**
    - **Comparison with/without ENERGYSTARScore**: Analyze the impact of excluding the `ENERGYSTARScore` variable on model accuracy to determine if it can be safely omitted, reducing data collection costs.
