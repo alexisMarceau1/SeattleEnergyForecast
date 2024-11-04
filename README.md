@@ -39,7 +39,7 @@ This project is divided into two main notebooks:
 
 ## **Results**
 - **Best Model**: Random Forest provided a good balance between prediction accuracy and computational efficiency.
-- **ENERGYSTARScore Assessment**: Results suggest that excluding ENERGYSTARScore had a minimal impact on prediction accuracy, implying it could be safely omitted, thus reducing costs
+- **ENERGYSTARScore Assessment**: Results suggest that excluding `ENERGYSTARScore` had a minimal impact on prediction accuracy, implying it could be safely omitted, thus reducing costs
   associated with data collection.
 
 ## **Potential Improvements**
