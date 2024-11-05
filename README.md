@@ -92,7 +92,8 @@ This project is divided into two main notebooks:
 ### Observations
 - The model performs better in predicting energy consumption than CO₂ emissions. This may be because energy consumption is directly related to measurable factors (e.g., building size, usage type, and energy sources) that are relatively stable and straightforward to quantify. In contrast, CO₂ emissions can be influenced by additional, complex factors such as the efficiency of energy systems, external climate conditions, and variations in operational practices, which introduce more variability and make predictions more challenging.
 
-- **Conclusion**: Removing `ENERGYSTARScore` resulted in a minor decrease in performance, suggesting it contributes some predictive value but may not be essential. Thus, omitting it could be a viable option if data collection costs are a concern.
+- **Conclusion**: Removing ENERGYSTARScore resulted in a minor decrease in performance, with a drop of 6% in 𝑅² for CO₂ emissions and 4% for energy consumption.
+  This suggests that ENERGYSTARScore contributes some predictive value but may not be essential. While this variable provides some predictive value, the modest improvement may not justify the potentially high costs associated with its collection. Therefore, omitting ENERGYSTARScore could be a cost-effective choice, particularly if data acquisition expenses are a significant consideration
 
 
 
