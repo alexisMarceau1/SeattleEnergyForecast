@@ -86,7 +86,9 @@ This project is divided into two main notebooks:
   - **Without `ENERGYSTARScore`**:
       - **CO₂ Emissions**: MAE = 70.25, R² = 0.44
       - **Energy Consumption**: MAE ≈ 2.67 million, R² = 0.66
-
+   
+- **Observations**: The model performs better in predicting energy consumption than CO₂ emissions. This may be because energy consumption is directly related to measurable factors (e.g., building size, usage type, and energy sources) that are relatively stable and straightforward to quantify. In contrast, CO₂ emissions can be influenced by additional, complex factors such as the efficiency of energy systems, external climate conditions, and variations in operational practices, which introduce more variability and make predictions more challenging.
+  
 - **Conclusion**: Removing `ENERGYSTARScore` resulted in a minor decrease in performance (approx. 2-3% in R²), suggesting it contributes some predictive value but may not be essential. Thus, omitting it could be a viable option if data collection costs are a concern.
 
 
