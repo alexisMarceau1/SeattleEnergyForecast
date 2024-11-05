@@ -68,24 +68,24 @@ This project is divided into two main notebooks:
   #### CO₂ Emissions (`TotalGHGEmissions`)
 ![CO₂ Emissions Model Performance](images/emissions.png)
 
-- The graph illustrates the **Mean Absolute Error (MAE)** on both train and test sets across different models, as well as the training and prediction times for each model.
-- Random Forest achieved a balance between accuracy and computational efficiency, making it the best choice for predicting emissions.
+   - The graph illustrates the **Mean Absolute Error (MAE)** on both train and test sets across different models, as well as the training and prediction times for each model.
+   - Random Forest achieved a balance between accuracy and computational efficiency, making it the best choice for predicting emissions.
 
 #### Energy Consumption (`SiteEnergyUse(kBtu)`)
 ![Energy Consumption Model Performance](images/energy.png)
 
-- This graph shows the **MAE** on train and test sets for each model, as well as the computational times.
-- Similar to the emissions prediction, Random Forest demonstrated high accuracy with reasonable computational demands.
+   - This graph shows the **MAE** on train and test sets for each model, as well as the computational times.
+   - Similar to the emissions prediction, Random Forest demonstrated high accuracy with reasonable computational demands.
 
-  - **ENERGYSTARScore Assessment**: 
-    - Results suggest that excluding `ENERGYSTARScore` had a minimal impact on prediction accuracy, implying it could be safely omitted, thus reducing data collection costs.
-    - **With `ENERGYSTARScore`**:
-        - CO₂ Emissions: MAE = 68.47, R² = 0.47
-        - Energy Consumption: MAE ≈ 2.55 million, R² = 0.69
-    - **Without `ENERGYSTARScore`**:
-        - CO₂ Emissions: MAE = 70.25, R² = 0.44
-        - Energy Consumption: MAE ≈ 2.67 million, R² = 0.66
-    - **Conclusion**: Removing `ENERGYSTARScore` resulted in a minor decrease in performance (approx. 2-3% in R²), suggesting it contributes some predictive value but may not be essential. Thus, omitting it could be a viable option if data collection costs are a concern.
+- **ENERGYSTARScore Assessment**: 
+ - Results suggest that excluding `ENERGYSTARScore` had a minimal impact on prediction accuracy, implying it could be safely omitted, thus reducing data collection costs.
+ - **With `ENERGYSTARScore`**:
+     - CO₂ Emissions: MAE = 68.47, R² = 0.47
+     - Energy Consumption: MAE ≈ 2.55 million, R² = 0.69
+ - **Without `ENERGYSTARScore`**:
+     - CO₂ Emissions: MAE = 70.25, R² = 0.44
+     - Energy Consumption: MAE ≈ 2.67 million, R² = 0.66
+ - **Conclusion**: Removing `ENERGYSTARScore` resulted in a minor decrease in performance (approx. 2-3% in R²), suggesting it contributes some predictive value but may not be essential. Thus, omitting it could be a viable option if data collection costs are a concern.
 
 ## 🚀**Potential Improvements**
 
