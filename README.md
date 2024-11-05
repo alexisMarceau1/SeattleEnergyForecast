@@ -64,12 +64,11 @@ This project is divided into two main notebooks:
 
 ## ✅**Results**
 - **Best Model**: Random Forest provided a good balance between prediction accuracy and computational efficiency.
-  
+- 
   #### CO₂ Emissions (`TotalGHGEmissions`)
 ![CO₂ Emissions Model Performance](images/emissions.png)
-
-      - The graph illustrates the **Mean Absolute Error (MAE)** on both train and test sets across different models, as well as the training and prediction times for each model.
-      - Random Forest achieved a balance between accuracy and computational efficiency, making it the best choice for predicting emissions.
+   - The graph illustrates the **Mean Absolute Error (MAE)** on both train and test sets across different models, as well as the training and prediction times for each model.
+   - Random Forest achieved a balance between accuracy and computational efficiency, making it the best choice for predicting emissions.
 
 #### Energy Consumption (`SiteEnergyUse(kBtu)`)
 ![Energy Consumption Model Performance](images/energy.png)
