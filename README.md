@@ -101,5 +101,5 @@ This project is divided into two main notebooks:
 - **Advanced Feature Engineering**: Further transformations and interactions among variables could potentially improve model accuracy.
 - **Optimized Hyperparameter Tuning**: Using techniques like Bayesian Optimization could streamline tuning for complex models such as XGBoost.
 
-  ## 📫 Contact
-[Alexis MARCEAU] - [alexis.marceau.12@gmail.com]
+## 📫 Contact
+[Alexis MARCEAU] - [alexis.marceau.12@gmail.com][https://www.linkedin.com/in/alexis-marceau/?locale=en_US]
