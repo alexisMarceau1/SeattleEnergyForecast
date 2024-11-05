@@ -63,12 +63,14 @@ This project is divided into two main notebooks:
    - **Comparison with/without ENERGYSTARScore**: Analyze the impact of excluding the `ENERGYSTARScore` variable on model accuracy to determine if it can be safely omitted, reducing data collection costs.
 
 ## ✅**Results**
+
 ### Best Model
 - **Random Forest** provided a good balance between prediction accuracy and computational efficiency.
 
 #### CO₂ Emissions (`TotalGHGEmissions`)
 ![CO₂ Emissions Model Performance](images/emissions.png)
    - The graph illustrates the **Mean Absolute Error (MAE)** on both train and test sets across different models, as well as the training and prediction times for each model.
+   - Note: In the bar charts, 'Train' (orange) represents the model’s average performance on the training data during each cross-validation fold, while 'Test' (blue) shows the performance on the validation subsets within cross-validation. This 'Test' does not refer to the final test set but to internal validation. The final MAE on the test set is calculated separately, which may cause slight differences due to evaluating unseen data as a single set, rather than as averaged folds.
    - Random Forest achieved a balance between accuracy and computational efficiency, making it the best choice for predicting emissions.
 
 #### Energy Consumption (`SiteEnergyUse(kBtu)`)
@@ -86,10 +88,12 @@ This project is divided into two main notebooks:
   - **Without `ENERGYSTARScore`**:
       - **CO₂ Emissions**: MAE = 70.25, R² = 0.44
       - **Energy Consumption**: MAE ≈ 2.67 million, R² = 0.66
-   
-- **Observations**: The model performs better in predicting energy consumption than CO₂ emissions. This may be because energy consumption is directly related to measurable factors (e.g., building size, usage type, and energy sources) that are relatively stable and straightforward to quantify. In contrast, CO₂ emissions can be influenced by additional, complex factors such as the efficiency of energy systems, external climate conditions, and variations in operational practices, which introduce more variability and make predictions more challenging.
-  
+
+### Observations
+- The model performs better in predicting energy consumption than CO₂ emissions. This may be because energy consumption is directly related to measurable factors (e.g., building size, usage type, and energy sources) that are relatively stable and straightforward to quantify. In contrast, CO₂ emissions can be influenced by additional, complex factors such as the efficiency of energy systems, external climate conditions, and variations in operational practices, which introduce more variability and make predictions more challenging.
+
 - **Conclusion**: Removing `ENERGYSTARScore` resulted in a minor decrease in performance (approx. 2-3% in R²), suggesting it contributes some predictive value but may not be essential. Thus, omitting it could be a viable option if data collection costs are a concern.
+
 
 
 ## 🚀**Potential Improvements**
