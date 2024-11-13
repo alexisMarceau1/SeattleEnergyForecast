@@ -103,4 +103,5 @@ This project is divided into two main notebooks:
 - **Optimized Hyperparameter Tuning**: Using techniques like Bayesian Optimization could streamline tuning for complex models such as XGBoost.
 
 ## 📫 Contact
-[Alexis MARCEAU] - [alexis.marceau.12@gmail.com][https://www.linkedin.com/in/alexis-marceau/?locale=en_US]
+[Alexis MARCEAU] - [alexis.marceau.12@gmail.com]
+🔗 [LinkedIn](https://www.linkedin.com/in/alexis-marceau)
